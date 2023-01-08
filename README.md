@@ -9,6 +9,10 @@ Run this scripts using powershell
 2. It does NOT prevent the abuse of every available risky feature.
 3. It does NOT prevent the changes it implements from being reverted. If malicious code runs on the system and it is able to restore them, the premise of the tool is defeated
 
+
+# Is this script follows Zero Trust principle or not?
+yes, this script enforces Zero Trust to a certain level supported by OS
+
 # Inbuilt Security Feature used by this scripts
 1. Applocker
 2. WDAC
@@ -31,7 +35,7 @@ All of the scripts run latest Windows 11 , Windows 10 and latest version of Wind
 5. block-sctask.ps1 - This script disable scheduled task creation
 6. block_debug_exe.ps1 - This script blocks executables compiled in debug mode from execution
 7. block_unsigned_exe.ps1 - This script block executables which are not signed from execution
-8. block_write_autorun.ps1 - This script block process from modification autorun in registry
+8. block_write_autorun.ps1 - This script block process from modification of autorun in registry
 9. disable-cmd.ps1 - This script blocks cmd.exe
 10. disable-powershell.ps1 - This script blocks powershell.exe (Run this script at last)
 11. enable-protected-folder.ps1 - This script enable protected folder
