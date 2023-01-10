@@ -43,7 +43,15 @@ All of the scripts run latest Windows 11 , Windows 10 and latest version of Wind
 13. restrict-exe.ps1 - This script allow exe loading from program files directory only
 14. restrict-download.ps1 - This script blocks downloads in edge and internet explorer
 15. Whitelist_lolbins.ps1 - This script whitelist blocked certain executable in system32 missused by malware
+16. harden_step1.ps1 - This script witll do the following
+      1. Disable Remote Desktop
+      2. Send NTLMv2 response only/refuse LM and NTLM
+      3. Do not allow anonymous enumeration of SAM accounts and shares
+      4. Restrict Anonymous Access
+      5. Disable IE Password Cache
+      6. Disable Edge Password Cache
 
+17. harden_step5.ps1: This script hardens the Office 
 
 # Supplement software
 https://github.com/securitywithoutborders/hardentools
