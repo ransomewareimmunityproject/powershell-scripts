@@ -2,7 +2,7 @@
 Powershell scripts for making your Windows System secured against Ransomeware threats! This scripts allow an administrator to harden the Windows Environment
 
 # Instruction:
-Read this comments in powershell code before executing them
+Read the comments in powershell code before executing them
 # Usage
 Run this scripts using powershell
 
