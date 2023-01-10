@@ -1,6 +1,8 @@
 # powershell-scripts
 Powershell scripts for making your Windows System secured against Ransomeware threats! This scripts allow an administrator to harden the Windows Environment
 
+# Instruction:
+Read this comments in powershell code before executing them
 # Usage
 Run this scripts using powershell
 
@@ -51,7 +53,7 @@ All of the scripts run latest Windows 11 , Windows 10 and latest version of Wind
       5. Disable IE Password Cache
       6. Disable Edge Password Cache
 
-17. harden_step5.ps1: This script hardens the Office 
+17. harden_step4.ps1: This script hardens the Office 
 
 # Supplement software
 https://github.com/securitywithoutborders/hardentools
